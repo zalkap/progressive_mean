@@ -4,7 +4,6 @@ class ProgressiveMean():
     def __init__(self):
         self._length = 0
         self._mean = 0
-        self._next_value = 0
 
     @property  
     def mean(self):
